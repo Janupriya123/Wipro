@@ -8,7 +8,7 @@ public class program15{
         {
             int d=n%10;       
             r=r*10+d;      
-            n=num/10;            
+            n=n/10;            
         }
         sc.close();
     }
