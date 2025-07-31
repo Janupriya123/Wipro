@@ -8,8 +8,8 @@ public class program16{
         while (n!=0) 
         {
             int d=n%10;
-            rev=r*10+d;
-            num=num/10;
+            r=r*10+d;
+            n=n/10;
         }
        if (o==r) 
        {
