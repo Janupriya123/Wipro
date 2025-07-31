@@ -4,10 +4,10 @@ public class program13{
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
         int sum=0;
-        while (num != 0) {
-            int d=num % 10;  
+        while (n!=0) {
+            int d=n% 10;  
             sum += d;          
-            num=num/10;       
+            n=n/10;       
         }
         System.out.println(sum);
         sc.close();
