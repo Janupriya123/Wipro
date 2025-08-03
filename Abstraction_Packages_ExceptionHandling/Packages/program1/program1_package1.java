@@ -1,5 +1,6 @@
 package test;
-public class foundation {
+public class foundation
+{
     private int var1 = 10;          
     private int var2 = 20;         
     protected int var3 = 30;        
