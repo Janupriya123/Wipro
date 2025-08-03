@@ -23,6 +23,6 @@ public class program14
             System.out.println();
         }
       System.out.println(max);
-      sc.close();
+      
     }
 }
