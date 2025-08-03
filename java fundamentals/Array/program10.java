@@ -29,6 +29,6 @@ public class program10
         {
           System.out.print(res[i]+" ");
         }
-         sc.clsoe();
+         sc.close();
     }
 }
