@@ -29,6 +29,6 @@ public class program8
             }
         }
      System.out.println("Sum"+sum);
-     sc.clsoe();
+     sc.close();
     }
 }
