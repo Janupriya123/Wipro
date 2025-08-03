@@ -60,9 +60,9 @@ public class program3
 
         } catch (NumberFormatException e)
           {
-            System.out.println(e.getMessage());
+            System.out.println("Error"+ e.getMessage());
         } catch (NegativeValueException | OutOfRangeException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Custom Error"+ e.getMessage());
         } finally {
             scanner.close();
         }
